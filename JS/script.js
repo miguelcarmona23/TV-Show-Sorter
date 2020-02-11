@@ -13,3 +13,13 @@ const tvShows = [
     "The Fresh Prince of Bel Air",
     "The Office"
 ];
+
+const sortedTvShows = tvShows.sort(function(a, b) {
+    if (a > b) {
+        return 1;
+    } else {
+        return -1;
+    }
+})
+
+console.log(sortedTvShows);
