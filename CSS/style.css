@@ -7,3 +7,13 @@ body {
     align-items: center;
     min-height: 100vh;
 }
+
+#tvshows {
+    list-style: inside square;
+    font-size: 20px;
+    background: white;
+    width: 500px;
+    margin: auto;
+    padding: 0;
+    box-shadow: 0 0 0 20px rgba(0, 0, 0, 0.05);
+}
