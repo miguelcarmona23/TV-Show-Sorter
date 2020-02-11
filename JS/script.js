@@ -17,8 +17,9 @@ const tvShows = [
 function strip(tvShowNames) {
     return tvShowNames.replace(/^(a |the |an )/i, '').trim();
 }
+
 const sortedTvShows = tvShows.sort(function(a, b) {
-    if (a > b) {
+    if (strip(a) > strip(b)) {
         return 1;
     } else {
         return -1;
