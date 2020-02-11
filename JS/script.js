@@ -18,8 +18,6 @@ function strip(tvShowNames) {
     return tvShowNames.replace(/^(a |the |an )/i, '').trim();
 }
 
-const sortedTvShows = tvShows.sort(function(a, b) {
-    return strip(a) > strip(b) ? 1 : -1;
-});
+const sortedTvShows = tvShows.sort((a, b) => strip(a) > strip(b) ? 1 : -1);
 
 console.log(sortedTvShows);
