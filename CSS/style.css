@@ -22,3 +22,7 @@ body {
     border-bottom: 1px solid #efefef;
     padding: 20px;
 }
+
+#tvshows li:last-child {
+    border-bottom: 0;
+}
