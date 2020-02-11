@@ -1,0 +1,9 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    background: url("https://mycimmykindalife.files.wordpress.com/2015/12/tv-show-collage-part1.jpg");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+}
