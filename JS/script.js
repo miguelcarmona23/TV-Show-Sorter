@@ -14,6 +14,9 @@ const tvShows = [
     "The Office"
 ];
 
+function strip(tvShowNames) {
+    return tvShowNames.replace(/^(a |the |an )/i, '').trim();
+}
 const sortedTvShows = tvShows.sort(function(a, b) {
     if (a > b) {
         return 1;
